@@ -51,17 +51,19 @@ public class DataLoader {
           description = reader.nextString();
           break;
         case "dlc":
-          if (reader.nextString().isEmpty()) {
+          String dlcString = reader.nextString();
+          if (dlcString.isEmpty()) {
             dlc = DLC.BASE;
           } else {
-            dlc = DLC.valueOf(reader.nextString());
+            dlc = DLC.valueOf(dlcString);
           }
           break;
         case "country":
-          if (reader.nextString().isEmpty()) {
+          String countryString = reader.nextString();
+          if (countryString.isEmpty()) {
             country = Country.Italy;
           } else {
-            country = Country.valueOf(reader.nextString());
+            country = Country.valueOf(countryString);
           }
           break;
         case "lengthInM":
@@ -119,24 +121,27 @@ public class DataLoader {
           description = reader.nextString();
           break;
         case "dlc":
-          if (reader.nextString().isEmpty()) {
+          String dlcString = reader.nextString();
+          if (dlcString.isEmpty()) {
             dlc = DLC.BASE;
           } else {
-            dlc = DLC.valueOf(reader.nextString());
+            dlc = DLC.valueOf(dlcString);
           }
           break;
         case "manufacturer":
-          if (reader.nextString().isEmpty()) {
+          String manufacturerString = reader.nextString();
+          if (manufacturerString.isEmpty()) {
             manufacturer = Manufacturer.Ferrari;
           } else {
-            manufacturer = Manufacturer.valueOf(reader.nextString());
+            manufacturer = Manufacturer.valueOf(manufacturerString);
           }
           break;
         case "raceclass":
-          if (reader.nextString().isEmpty()) {
+          String raceclassString = reader.nextString();
+          if (raceclassString.isEmpty()) {
             raceClass = RaceClass.GT3;
           } else {
-            raceClass = RaceClass.valueOf(reader.nextString());
+            raceClass = RaceClass.valueOf(raceclassString);
           }
           break;
         case "year":
