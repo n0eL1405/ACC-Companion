@@ -1,18 +1,31 @@
 package de.leon.acccompanion.ui.data;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.HashMap;
 import lombok.NonNull;
 
 public class Car extends Data {
 
+  @SerializedName("manufacturer")
   private final Manufacturer manufacturer;
+  @SerializedName("raceclass")
   private final RaceClass raceClass;
+  @SerializedName("year")
   private final int year;
 
   public Car(@NonNull int id, @NonNull String name, @NonNull String description, @NonNull DLC dlc,
       @NonNull Manufacturer manufacturer, @NonNull RaceClass raceClass,
       @NonNull int year, @NonNull int dataVersion) {
     super(id, name, description, dlc, dataVersion);
+    this.manufacturer = manufacturer;
+    this.raceClass = raceClass;
+    this.year = year;
+  }
+
+  public Car(@NonNull int id, @NonNull String name, @NonNull String description, @NonNull String userDescription, @NonNull DLC dlc,
+      @NonNull Manufacturer manufacturer, @NonNull RaceClass raceClass,
+      @NonNull int year, @NonNull boolean isFavorite, @NonNull int dataVersion) {
+    super(id, name, description, userDescription, dlc, isFavorite, dataVersion);
     this.manufacturer = manufacturer;
     this.raceClass = raceClass;
     this.year = year;

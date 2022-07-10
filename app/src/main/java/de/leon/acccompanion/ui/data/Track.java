@@ -1,17 +1,29 @@
 package de.leon.acccompanion.ui.data;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.HashMap;
 import lombok.NonNull;
 
 public class Track extends Data {
 
+  @SerializedName("country")
   private final Country country;
+  @SerializedName("lengthInM")
   private final int lengthInM;
 
   public Track(@NonNull int id, @NonNull String name, @NonNull String description, @NonNull DLC dlc,
       @NonNull Country country, @NonNull int lengthInM,
       @NonNull int dataVersion) {
     super(id, name, description, dlc, dataVersion);
+    this.country = country;
+    this.lengthInM = lengthInM;
+  }
+
+  public Track(@NonNull int id, @NonNull String name, @NonNull String description,
+      @NonNull String userDescription, @NonNull DLC dlc,
+      @NonNull Country country, @NonNull int lengthInM, @NonNull boolean isFavorite,
+      @NonNull int dataVersion) {
+    super(id, name, description, userDescription, dlc, isFavorite, dataVersion);
     this.country = country;
     this.lengthInM = lengthInM;
   }

@@ -6,6 +6,8 @@
     "dlc": "BASE",
     "country": "Spain",
     "lengthInM": 4655,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -15,6 +17,8 @@
     "dlc": "Intercontinental_GT_Pack",
     "country": "Australia",
     "lengthInM": 6213,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -24,6 +28,8 @@
     "dlc": "BASE",
     "country": "UK",
     "lengthInM": 3916,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -33,6 +39,8 @@
     "dlc": "American_Track_Pack",
     "country": "USA",
     "lengthInM": 0,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -42,6 +50,8 @@
     "dlc": "British_GT_Pack",
     "country": "UK",
     "lengthInM": 4020,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -51,6 +61,8 @@
     "dlc": "BASE",
     "country": "Hungary",
     "lengthInM": 4381,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -60,6 +72,8 @@
     "dlc": "GT_World_Challenge_2020",
     "country": "Italy",
     "lengthInM": 4909,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -69,6 +83,8 @@
     "dlc": "American_Track_Pack",
     "country": "USA",
     "lengthInM": 0,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -78,6 +94,8 @@
     "dlc": "Intercontinental_GT_Pack",
     "country": "South_Africa",
     "lengthInM": 4580,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -87,6 +105,8 @@
     "dlc": "Intercontinental_GT_Pack",
     "country": "USA",
     "lengthInM": 3602,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -96,6 +116,8 @@
     "dlc": "BASE",
     "country": "Italy",
     "lengthInM": 4200,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -105,6 +127,8 @@
     "dlc": "BASE",
     "country": "Italy",
     "lengthInM": 5793,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -114,6 +138,8 @@
     "dlc": "BASE",
     "country": "Germany",
     "lengthInM": 5137,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -123,6 +149,8 @@
     "dlc": "British_GT_Pack",
     "country": "UK",
     "lengthInM": 4333,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -132,6 +160,8 @@
     "dlc": "BASE",
     "country": "France",
     "lengthInM": 5770,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -141,6 +171,8 @@
     "dlc": "BASE",
     "country": "UK",
     "lengthInM": 5890,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -150,6 +182,8 @@
     "dlc": "British_GT_Pack",
     "country": "UK",
     "lengthInM": 4779,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -159,6 +193,8 @@
     "dlc": "BASE",
     "country": "Belgium",
     "lengthInM": 7004,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -168,6 +204,8 @@
     "dlc": "American_Track_Pack",
     "country": "USA",
     "lengthInM": 0,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -177,6 +215,8 @@
     "dlc": "Intercontinental_GT_Pack",
     "country": "Japan",
     "lengthInM": 5807,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -186,6 +226,8 @@
     "dlc": "BASE",
     "country": "Netherlands",
     "lengthInM": 4320,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   },
   {
@@ -195,6 +237,8 @@
     "dlc": "BASE",
     "country": "Belgium",
     "lengthInM": 4010,
+    "userDescription": "",
+    "isFavorite": false,
     "dataVersion": 1
   }
 ]

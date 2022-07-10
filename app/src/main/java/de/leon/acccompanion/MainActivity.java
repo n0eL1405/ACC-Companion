@@ -9,9 +9,7 @@ import androidx.navigation.ui.NavigationUI;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import de.leon.acccompanion.databinding.ActivityMainBinding;
 import de.leon.acccompanion.ui.data.Car;
-import de.leon.acccompanion.ui.data.DataLoader;
 import de.leon.acccompanion.ui.data.Track;
-import java.io.IOException;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -41,13 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
 
-        try {
-            tracks = DataLoader.loadTracks(getResources().openRawResource(R.raw.tracks));
-            cars = DataLoader.loadCars(getResources().openRawResource(R.raw.cars));
-        } catch (IOException exception) {
-            //todo exception behandlung
-            System.out.println(exception.getMessage());
-        }
     }
 
 }
