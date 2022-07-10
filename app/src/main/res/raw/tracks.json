@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "name": "Barcelona",
+    "description": "Grand Prix Circuit",
+    "dlc": "BASE",
+    "country": "Spain",
+    "lengthInM": 4655,
+    "dataVersion": 1
+  },
+  {
+    "id": 2,
+    "name": "Bathurst",
+    "description": "Mount Panorama Circuit",
+    "dlc": "Intercontinental_GT_Pack",
+    "country": "Australia",
+    "lengthInM": 6213,
+    "dataVersion": 1
+  },
+  {
+    "id": 3,
+    "name": "Brands Hatch",
+    "description": "Grand Prix Circuit",
+    "dlc": "BASE",
+    "country": "UK",
+    "lengthInM": 3916,
+    "dataVersion": 1
+  },
+  {
+    "id": 4,
+    "name": "Circuit of the Americas",
+    "description": "",
+    "dlc": "American_Track_Pack",
+    "country": "USA",
+    "lengthInM": 0,
+    "dataVersion": 1
+  },
+  {
+    "id": 5,
+    "name": "Donington Park",
+    "description": "Grand Prix Circuit",
+    "dlc": "British_GT_Pack",
+    "country": "UK",
+    "lengthInM": 4020,
+    "dataVersion": 1
+  },
+  {
+    "id": 6,
+    "name": "Hungaroring",
+    "description": "Grand Prix Circuit",
+    "dlc": "BASE",
+    "country": "Hungary",
+    "lengthInM": 4381,
+    "dataVersion": 1
+  },
+  {
+    "id": 7,
+    "name": "Imola",
+    "description": "Grand Prix Circuit",
+    "dlc": "GT_World_Challenge_2020",
+    "country": "Italy",
+    "lengthInM": 4909,
+    "dataVersion": 1
+  },
+  {
+    "id": 8,
+    "name": "Indianapolis Motor Speedway",
+    "description": "",
+    "dlc": "American_Track_Pack",
+    "country": "USA",
+    "lengthInM": 0,
+    "dataVersion": 1
+  },
+  {
+    "id": 9,
+    "name": "Kyalami",
+    "description": "Grand Prix Circuit",
+    "dlc": "Intercontinental_GT_Pack",
+    "country": "South_Africa",
+    "lengthInM": 4580,
+    "dataVersion": 1
+  },
+  {
+    "id": 10,
+    "name": "Laguna Seca",
+    "description": "Road Course",
+    "dlc": "Intercontinental_GT_Pack",
+    "country": "USA",
+    "lengthInM": 3602,
+    "dataVersion": 1
+  },
+  {
+    "id": 11,
+    "name": "Misano",
+    "description": "Grand Prix Circuit",
+    "dlc": "BASE",
+    "country": "Italy",
+    "lengthInM": 4200,
+    "dataVersion": 1
+  },
+  {
+    "id": 12,
+    "name": "Monza",
+    "description": "Road Course",
+    "dlc": "BASE",
+    "country": "Italy",
+    "lengthInM": 5793,
+    "dataVersion": 1
+  },
+  {
+    "id": 13,
+    "name": "Nurburgring",
+    "description": "Grand Prix Circuit + Mercedes Arena",
+    "dlc": "BASE",
+    "country": "Germany",
+    "lengthInM": 5137,
+    "dataVersion": 1
+  },
+  {
+    "id": 14,
+    "name": "Oulton Park",
+    "description": "International Circuit",
+    "dlc": "British_GT_Pack",
+    "country": "UK",
+    "lengthInM": 4333,
+    "dataVersion": 1
+  },
+  {
+    "id": 15,
+    "name": "Paul Ricard",
+    "description": "Circuit 1A-V2",
+    "dlc": "BASE",
+    "country": "France",
+    "lengthInM": 5770,
+    "dataVersion": 1
+  },
+  {
+    "id": 16,
+    "name": "Silverstone",
+    "description": "Grand Prix Arena Circuit (Original Pits)",
+    "dlc": "BASE",
+    "country": "UK",
+    "lengthInM": 5890,
+    "dataVersion": 1
+  },
+  {
+    "id": 17,
+    "name": "Snetterton 300",
+    "description": "",
+    "dlc": "British_GT_Pack",
+    "country": "UK",
+    "lengthInM": 4779,
+    "dataVersion": 1
+  },
+  {
+    "id": 18,
+    "name": "Spa-Francorchamps",
+    "description": "Grand Prix Circuit (F1 Pits)",
+    "dlc": "BASE",
+    "country": "Belgium",
+    "lengthInM": 7004,
+    "dataVersion": 1
+  },
+  {
+    "id": 19,
+    "name": "Watkins Glen",
+    "description": "",
+    "dlc": "American_Track_Pack",
+    "country": "USA",
+    "lengthInM": 0,
+    "dataVersion": 1
+  },
+  {
+    "id": 20,
+    "name": "Suzuka",
+    "description": "Grand Prix Circuit",
+    "dlc": "Intercontinental_GT_Pack",
+    "country": "Japan",
+    "lengthInM": 5807,
+    "dataVersion": 1
+  },
+  {
+    "id": 21,
+    "name": "Zandvoort",
+    "description": "Grand Prix Circuit",
+    "dlc": "BASE",
+    "country": "Netherlands",
+    "lengthInM": 4320,
+    "dataVersion": 1
+  },
+  {
+    "id": 22,
+    "name": "Zolder",
+    "description": "Grand Prix Circuit",
+    "dlc": "BASE",
+    "country": "Belgium",
+    "lengthInM": 4010,
+    "dataVersion": 1
+  }
+]
