@@ -9,13 +9,13 @@
         android:id="@+id/navigation_home"
         android:name="de.leon.acccompanion.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_car" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="de.leon.acccompanion.ui.dashboard.DashboardFragment"
+        android:name="de.leon.acccompanion.ui.cars.CarsFragment"
         android:label="@string/title_cars"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_cars" />
 
     <fragment
         android:id="@+id/navigation_notifications"

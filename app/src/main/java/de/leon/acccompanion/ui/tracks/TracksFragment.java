@@ -11,14 +11,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import de.leon.acccompanion.R;
 import de.leon.acccompanion.databinding.FragmentTracksBinding;
-import de.leon.acccompanion.ui.data.DataLoader;
-import de.leon.acccompanion.ui.data.Track;
 import de.leon.acccompanion.ui.data.Track.TrackHashMapKeys;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
 
 public class TracksFragment extends Fragment {
 
@@ -34,15 +29,8 @@ public class TracksFragment extends Fragment {
     binding = FragmentTracksBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
-    List<Track> tracks = new LinkedList<>();
-
-    try {
-      tracks = DataLoader.loadTracks(getResources().openRawResource(R.raw.tracks));
-    } catch (IOException exception) {
-      exception.printStackTrace();
-    }
-
-    tracks.forEach(track -> trackHashmaps.add(track.toHashMap()));
+    tracksViewModel.loadTracks(getResources().openRawResource(R.raw.tracks)).getValue()
+        .forEach(track -> trackHashmaps.add(track.toHashMap()));
 
     ListAdapter adapter = new SimpleAdapter(this.getContext(), trackHashmaps, R.layout.list_tracks,
         new String[]{TrackHashMapKeys.name.toString(), TrackHashMapKeys.description.toString(),

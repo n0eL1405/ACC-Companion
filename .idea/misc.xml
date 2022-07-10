@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/activity_main.xml" value="0.33489583333333334" />
+        <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/fragment_car.xml" value="0.33489583333333334" />
+        <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/fragment_dashboard.xml" value="0.33489583333333334" />
         <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/fragment_home.xml" value="0.33489583333333334" />
         <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/fragment_tracks.xml" value="0.33489583333333334" />
         <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/list.xml" value="0.38990267639902676" />
+        <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/list_cars.xml" value="0.33489583333333334" />
         <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/layout/list_tracks.xml" value="0.3911192214111922" />
         <entry key="..\:/DEV/Projects/Android/ACCCompanion/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33489583333333334" />
         <entry key="..\:/Users/leonh/AndroidStudioProjects/ACCCompanion/app/src/main/res/layout/activity_main.xml" value="0.33489583333333334" />

@@ -51,16 +51,27 @@ public class DataLoader {
           description = reader.nextString();
           break;
         case "dlc":
-          dlc = DLC.valueOf(reader.nextString());
+          if (reader.nextString().isEmpty()) {
+            dlc = DLC.BASE;
+          } else {
+            dlc = DLC.valueOf(reader.nextString());
+          }
           break;
         case "country":
-          country = Country.valueOf(reader.nextString());
+          if (reader.nextString().isEmpty()) {
+            country = Country.Italy;
+          } else {
+            country = Country.valueOf(reader.nextString());
+          }
           break;
         case "lengthInM":
           lengthInM = reader.nextInt();
           break;
         case "dataVersion":
           dataVersion = reader.nextInt();
+          break;
+        default:
+          reader.skipValue();
           break;
       }
     }
@@ -108,19 +119,34 @@ public class DataLoader {
           description = reader.nextString();
           break;
         case "dlc":
-          dlc = DLC.valueOf(reader.nextString());
+          if (reader.nextString().isEmpty()) {
+            dlc = DLC.BASE;
+          } else {
+            dlc = DLC.valueOf(reader.nextString());
+          }
           break;
         case "manufacturer":
-          manufacturer = Manufacturer.valueOf(reader.nextString());
+          if (reader.nextString().isEmpty()) {
+            manufacturer = Manufacturer.Ferrari;
+          } else {
+            manufacturer = Manufacturer.valueOf(reader.nextString());
+          }
           break;
         case "raceclass":
-          raceClass = RaceClass.valueOf(reader.nextString());
+          if (reader.nextString().isEmpty()) {
+            raceClass = RaceClass.GT3;
+          } else {
+            raceClass = RaceClass.valueOf(reader.nextString());
+          }
           break;
         case "year":
           year = reader.nextInt();
           break;
         case "dataVersion":
           dataVersion = reader.nextInt();
+          break;
+        default:
+          reader.skipValue();
           break;
       }
     }
