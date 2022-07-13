@@ -4,4 +4,9 @@
   <string name="title_cars">Autos</string>
   <string name="title_tracks">Strecken</string>
   <string name="placeholder_user_description_textfield">Deine Beschreibung</string>
+  <string name="totalRaceTime">Renndauer</string>
+  <string name="averageLapTime">Durchschnittliche Rundenzeit</string>
+  <string name="totalLaps">Rundenanzahl Gesamt</string>
+  <string name="fuelPerLap">Verbrauch pro Runde</string>
+  <string name="fuelTankCapacity">Tankkapazität</string>
 </resources>
